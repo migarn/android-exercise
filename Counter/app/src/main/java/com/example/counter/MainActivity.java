@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setTextViewValue(int counter) {
         TextView textView = (TextView) findViewById(R.id.counter_view);
-        textView.setText(counter);
+        String counterValue = String.valueOf(counter);
+        textView.setText(counterValue);
     }
 }
