@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 String returnString = data.getStringExtra("newCounterValue");
                 TextView textView = (TextView) findViewById(R.id.counter_view);
                 textView.setText(returnString);
+                counter = Integer.parseInt(returnString);
             }
         }
     }
