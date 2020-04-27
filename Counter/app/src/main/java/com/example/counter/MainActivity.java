@@ -2,6 +2,7 @@ package com.example.counter;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -37,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
         textView.setText(counterValue);
     }
 
-    public void setCounterValue(View view) {
-
+    public void openSetValueLayout(View view) {
+        Intent intent = new Intent(this,  SetCounterActivity.class);
+        startActivity(intent);
     }
 }
