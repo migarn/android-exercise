@@ -36,4 +36,8 @@ public class MainActivity extends AppCompatActivity {
         String counterValue = String.valueOf(counter);
         textView.setText(counterValue);
     }
+
+    public void setCounterValue(View view) {
+
+    }
 }
