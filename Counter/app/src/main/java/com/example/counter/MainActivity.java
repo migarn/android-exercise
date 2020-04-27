@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (requestCode == 0) {
             if (resultCode == RESULT_OK) {
-                String returnString = data.getStringExtra("keyName");
+                String returnString = data.getStringExtra("newCounterValue");
                 TextView textView = (TextView) findViewById(R.id.counter_view);
                 textView.setText(returnString);
             }
