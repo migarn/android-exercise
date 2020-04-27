@@ -29,5 +29,10 @@
         android:layout_height="wrap_content"
         android:text="@string/clear"
         android:onClick="clearTextView"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/set"
+        android:onClick="clearTextView"/>
 
 </LinearLayout>

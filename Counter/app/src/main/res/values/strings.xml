@@ -3,4 +3,5 @@
     <string name="inc">ZWIĘKSZ</string>
     <string name="dec">ZMNIEJSZ</string>
     <string name="clear">WYZERUJ</string>
+    <string name="set">USTAW WARTOŚĆ</string>
 </resources>
